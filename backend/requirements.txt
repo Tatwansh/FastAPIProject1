@@ -1,0 +1,11 @@
+fastapi == 0.95.1
+uvicorn == 0.22.0 #server
+
+SQLAlchemy == 2.0.13  #database connections
+psycopg2
+
+python-dotenv == 1.0.0 #base_environment variables storing
+
+alembic==1.11.1 # for python-> postgres code migrations
+
+pydantic[email] #e-mail Verification
