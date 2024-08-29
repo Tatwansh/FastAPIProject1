@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="637e617c-fa91-4746-8564-bf5b727b8d43" name="Changes" comment="New Task">
-      <change afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/core/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/db/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/db/base_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/db/models/buyer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/db/models/seller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/db/session.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/schemas/buyer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/schemas/seller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/apiS/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/apiS/ver1/route_buyer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/db/repository/buyer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/db/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/db/session.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/schemas/buyer.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/schemas/buyer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/schemas/seller.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/schemas/seller.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +43,8 @@
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/amitj/PycharmProjects/Priyanshi_Practicals&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
