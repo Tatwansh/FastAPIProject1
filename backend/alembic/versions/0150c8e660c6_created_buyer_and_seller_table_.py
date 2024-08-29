@@ -1,8 +1,8 @@
 """Created buyer and seller table migrations. Finally!
 
-Revision ID: b9fb5df4bbf5
+Revision ID: 0150c8e660c6
 Revises: 
-Create Date: 2024-08-26 19:57:06.565876
+Create Date: 2024-08-29 22:33:02.905678
 
 """
 from alembic import op
@@ -10,7 +10,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = 'b9fb5df4bbf5'
+revision = '0150c8e660c6'
 down_revision = None
 branch_labels = None
 depends_on = None

@@ -9,14 +9,10 @@ def create_tables():
     BASE.metadata.create_all(bind=eng)
 
 
-def include_router(appl):
-    appl.include_router(api_router)
-
-
 def start_app():
     appl = FastAPI(title=settings.ProjectName, version=settings.ProjectVersion)
     create_tables()
-    include_router(appl)
+    appl.include_router(api_router)
     return appl
 
 

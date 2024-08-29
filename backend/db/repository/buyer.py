@@ -6,7 +6,7 @@ from db.models.buyer import Buyer
 def create_new_buyer(buyer: BuyerCreate,db: Session):
     buyer = Buyer(
         phone_no=buyer.phone_no,
-        email=buyer.email,
+        e_mail=buyer.e_mail,
         actively_seeking=True
     )
     db.add(buyer)
