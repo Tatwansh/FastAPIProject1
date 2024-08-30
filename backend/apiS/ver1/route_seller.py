@@ -9,7 +9,7 @@ from db.repository.seller import create_new_seller
 router = APIRouter()
 
 
-@router.post("/sellers", response_model=ShowSeller, status_code=status.HTTP_201_CREATED)
-async def create_buyer(buyer: SellerCreate, db: Session = Depends(get_db)):
+@router.post("/seller", response_model=ShowSeller, status_code=status.HTTP_201_CREATED)
+async def create_seller(seller: SellerCreate, db: Session = Depends(get_db)):
     seller = create_new_seller(seller=seller, db=db)
     return seller

@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="637e617c-fa91-4746-8564-bf5b727b8d43" name="Changes" comment="New Task">
-      <change afterPath="$PROJECT_DIR$/backend/apiS/ver1/route_seller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/db/repository/seller.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/apiS/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apiS/base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/apiS/ver1/route_buyer.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apiS/ver1/route_buyer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/db/repository/buyer.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/db/repository/buyer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/schemas/buyer.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/schemas/buyer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/apiS/ver1/route_seller.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apiS/ver1/route_seller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/db/repository/seller.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/db/repository/seller.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/schemas/seller.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/schemas/seller.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
