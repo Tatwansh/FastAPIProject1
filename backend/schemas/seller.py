@@ -1,7 +1,23 @@
 from pydantic import BaseModel, EmailStr, Field
+from typing import Optional
 
 
-#Adding Constraints to Seller
+# Adding Constraints to Seller
 class SellerCreate(BaseModel):
-    email: EmailStr
-    phone_no = Field(gt=999999999, lt=1000000000)
+    name: str = Field(..., min_length=1)
+    e_mail: EmailStr
+    phone_no: int = Field(..., gt=999999999, le=9999999999)
+    Plot_Add: str = Field(..., min_length=5)
+    Plot_Details: Optional[str]
+    Expected_Price: int = Field(..., ge=0)
+
+
+class ShowSeller(BaseModel):
+    id: int
+    name: str
+    phone_no: int
+    Plot_Add: str
+    actively_seeking: bool
+
+    class Config():
+        orm_mode = True

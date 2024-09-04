@@ -3,5 +3,16 @@ from pydantic import BaseModel, EmailStr, Field
 
 # Buyer Table constraints
 class BuyerCreate(BaseModel):
-    email: EmailStr
-    phone_no = Field(gt=999999999, lt=1000000000)
+    name: str = Field(..., min_length=1)
+    e_mail: EmailStr
+    phone_no: int = Field(..., gt=999999999, le=9999999999)
+
+
+class ShowBuyer(BaseModel):
+    id: int
+    name: str
+    phone_no: int
+    actively_seeking: bool
+
+    class Config():
+        orm_mode = True
